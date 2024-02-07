@@ -7,6 +7,7 @@ declare module "@remix-run/cloudflare" {
   interface AppLoadContext {
     env: {
       MY_KV: KVNamespace;
+      AUTH0_SECRET: string;
     };
   }
 }
