@@ -8,7 +8,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [
     remix({
-      ignoredRouteFiles: ["**/.*"],
       presets: [cloudflare()],
     }),
     tsconfigPaths(),
